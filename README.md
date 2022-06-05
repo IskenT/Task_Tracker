@@ -9,4 +9,4 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourpassword" -p 1433:1433 -d mcr.
 4. After starting the database server, go to the database server and create the database with the name "TaskTrackerDB".
 5. Change password in appsettings.json file.
 6. On PM console on Visual Studio create migration (add-migration 'migration name') and update the database (update-database).
-7. Run the application in Visual Studio.
+7. Run the application.
